@@ -8,14 +8,16 @@ import Library from './03/Library';
 import Clock from './04/Clock';
 import CommentList from './05/CommentLsit';
 import NotificationList from './06/NotificationList';
+import Counter from './07/Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <React.StrictMode>
-    <CommentList />
-    <NotificationList />
-  </React.StrictMode>
+  // <React.StrictMode>
+    /* <CommentList /> */
+    // <NotificationList />
+    <Counter />
+  /* </React.StrictMode> */
 );
 
 
