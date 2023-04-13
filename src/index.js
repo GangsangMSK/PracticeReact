@@ -9,6 +9,8 @@ import Clock from './04/Clock';
 import CommentList from './05/CommentLsit';
 import NotificationList from './06/NotificationList';
 import Counter from './07/Counter';
+import Acomodate from './07/Acomodate';
+import ConfirmButton from './08/ConfirmButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -16,7 +18,8 @@ root.render(
   // <React.StrictMode>
     /* <CommentList /> */
     // <NotificationList />
-    <Counter />
+    // <Acomodate />
+    <ConfirmButton />
   /* </React.StrictMode> */
 );
 

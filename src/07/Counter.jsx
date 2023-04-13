@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 
-function Counter() {
+function Counter(props) {
   const [count, setCount] = useState(0);
 
     useEffect(() => {
@@ -12,6 +12,7 @@ function Counter() {
             console.log(`useEffect unmount 호출됨. 최종 count: ${count}`);
         }
     }, []);
+
 
   return (
     <div>
