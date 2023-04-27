@@ -11,6 +11,8 @@ import NotificationList from './06/NotificationList';
 import Counter from './07/Counter';
 import Acomodate from './07/Acomodate';
 import ConfirmButton from './08/ConfirmButton';
+import LoginControl from './09/LoginControl';
+import LandingPage from './09/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -19,8 +21,10 @@ root.render(
     /* <CommentList /> */
     // <NotificationList />
     // <Acomodate />
-    <ConfirmButton />
+    // <ConfirmButton />
   /* </React.StrictMode> */
+  <LandingPage />
+
 );
 
 
