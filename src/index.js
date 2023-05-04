@@ -13,6 +13,11 @@ import Acomodate from './07/Acomodate';
 import ConfirmButton from './08/ConfirmButton';
 import LoginControl from './09/LoginControl';
 import LandingPage from './09/LandingPage';
+import NameForm from './11/NameForm';
+import FruitSelect from './11/FruitSelect';
+import Reservation from './11/Reservation';
+import SignUp from './11/SingUp';
+import Calculator from './12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -23,8 +28,12 @@ root.render(
     // <Acomodate />
     // <ConfirmButton />
   /* </React.StrictMode> */
-  <LandingPage />
-
+  // <LandingPage />
+  // <NameForm/>
+  // <FruitSelect/>
+  // <Reservation/>
+  // <SignUp/>
+  <Calculator/>
 );
 
 
