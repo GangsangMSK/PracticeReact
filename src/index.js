@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import Library from './03/Library';
@@ -18,6 +18,12 @@ import FruitSelect from './11/FruitSelect';
 import Reservation from './11/Reservation';
 import SignUp from './11/SingUp';
 import Calculator from './12/Calculator';
+import WelcomeDialog from './13/WelcomeDialog';
+import SignUpDialog from './13/SignUpDialog';
+import ProfileCard from './13/ProfileCard';
+import App from './14/App';
+import DarkOrLight from './14/DarkOrLight';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -33,7 +39,12 @@ root.render(
   // <FruitSelect/>
   // <Reservation/>
   // <SignUp/>
-  <Calculator/>
+  // <Calculator/>
+  // <WelcomeDialog/>
+  // <SignUpDialog/>
+  // <ProfileCard/>
+  // <App/>
+  <DarkOrLight/>
 );
 
 
