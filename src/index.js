@@ -23,7 +23,8 @@ import SignUpDialog from './13/SignUpDialog';
 import ProfileCard from './13/ProfileCard';
 import App from './14/App';
 import DarkOrLight from './14/DarkOrLight';
-
+import MainPage from './15/MainPage';
+import Blocks from './15/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -44,7 +45,9 @@ root.render(
   // <SignUpDialog/>
   // <ProfileCard/>
   // <App/>
-  <DarkOrLight/>
+  // <DarkOrLight/>
+  // <MainPage/>
+  <Blocks/>
 );
 
 
